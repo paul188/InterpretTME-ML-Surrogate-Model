@@ -83,12 +83,13 @@ shape = (6, N)
 augmentations = [
     "axis reflections (x, y, z)",
     "rotations by multiples of pi/2"
-]```
+]
+```
 
 ---
 
-## $\textbf{Model Architecture}$
-## 🔍 Key Modifications to PointNet++
+## Model Architecture
+## 🔍 Key Modifications to PointNet
 
 - Mean pooling instead of max pooling  
 - Skip connections across bottleneck  
@@ -101,4 +102,6 @@ augmentations = [
 \text{softmax}(-\|x_i - x_j\|^2)
 
 models inverse-square distribution of cytokine concentration.
-Autoencoder encodes the $\frac{n(n-1)}{2}$ pairwise distances into latent, rotation-invariant space of dim. $3N - 6$.
+Autoencoder encodes the $\frac{n(n-1)}{2}$ pairwise distances into latent, rotation-invariant latent space of dim. $3N - 6$ before input.
+
+![Image_Model](img_model.png)
