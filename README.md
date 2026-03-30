@@ -1,3 +1,5 @@
+## THE CODE OF THIS REPO IS PRIVATE
+
 # 🧪 Reaction–Diffusion Surrogate Model (InterpretTME)
 
 This project focuses on learning a **fast surrogate model** for solving a **reaction–diffusion PDE** arising in cytokine signaling, replacing expensive FEM simulations with a neural network.
