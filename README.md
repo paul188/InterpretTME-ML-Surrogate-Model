@@ -100,8 +100,13 @@ augmentations = [
 
 ```math
 \text{softmax}(-\|x_i - x_j\|^2)
+```
 
 models inverse-square distribution of cytokine concentration.
 Autoencoder encodes the $\frac{n(n-1)}{2}$ pairwise distances into latent, rotation-invariant latent space of dim. $3N - 6$ before input.
 
-![Image_Model](img_model.png)
+![Image_Model](architecture.png)
+
+### Results
+
+Achieves a loss ~1e-3 on complex cytokine distributions of $50$ interacting cells.
