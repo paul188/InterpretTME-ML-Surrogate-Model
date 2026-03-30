@@ -62,8 +62,11 @@ $$
 
 Each training sample consists of **N = 50 cells**, stored as:
 
+Each training sample consists of **N = 50 cells**, stored as:
+
 ```python
-shape = (6, N)’’’
+shape = (6, N)
+```
 
 Channels
 | 1-3     | Cell center coordinates (x, y, z)   |
@@ -79,7 +82,7 @@ Channels
 augmentations = [
     "axis reflections (x, y, z)",
     "rotations by multiples of pi/2"
-]
+]```
 
 ---
 
