@@ -63,7 +63,7 @@ $$
 Each training sample consists of **N = 50 cells**, stored as:
 
 ```python
-shape = (6, N)
+shape = (6, N)’’’
 
 Channels
 | 1-3     | Cell center coordinates (x, y, z)   |
