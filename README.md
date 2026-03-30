@@ -68,7 +68,8 @@ Each training sample consists of **N = 50 cells**, stored as:
 shape = (6, N)
 ```
 
-Channels
+| Channel | Description                         |
+| ------- | ----------------------------------- |
 | 1-3     | Cell center coordinates (x, y, z)   |
 | 4       | Cell type (secreting / absorbing)   |
 | 5       | Receptor count (normalized)         |
